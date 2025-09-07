@@ -1,7 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+
+    <!-- NuGet package info -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>MMG</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Michal Štefaňák</Authors>
+    <Description>My MonoGame utility library</Description>
+    <PackageTags>monogame game graphics</PackageTags>
+    <RepositoryUrl>https://github.com/Infael/MMG</RepositoryUrl>
   </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*">
       <PrivateAssets>All</PrivateAssets>
