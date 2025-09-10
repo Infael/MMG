@@ -234,5 +234,4 @@ public class TextureAtlas
     Animation animation = GetAnimation(animationName);
     return new AnimatedSprite(animation);
   }
-
 }
