@@ -12,6 +12,9 @@ dotnet pack -c Release
 ```bash
 git tag v1.0.0
 git push origin v1.0.0
+
+# or locally
+dotnet nuget add source ./bin/Release/ --name LocalMMG
 ```
 
 ## Use
@@ -20,4 +23,7 @@ dotnet nuget add source "https://nuget.pkg.github.com/Infael/index.json" \
   --name github \
   --username <username> \
   --password <PAT>
+
+# or use local source
+dotnet add package MMG --version 1.0.0 --source LocalMMG
 ```
