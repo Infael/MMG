@@ -108,5 +108,4 @@ public class Sprite
   {
     Region.Draw(spriteBatch, position, Color, Rotation, Origin, Scale, Effects, LayerDepth);
   }
-
 }
