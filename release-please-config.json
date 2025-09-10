@@ -1,0 +1,11 @@
+{
+  "release-type": "simple",
+  "packages": {
+    ".": {
+      "package-name": "MMG",
+      "extra-files": [
+        "MMG/MMG.csproj"
+      ]
+    }
+  }
+}
