@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/Infael/MMG/compare/v1.2.0...v1.3.0) (2025-09-14)
+
+
+### Features
+
+* update camera ([00d7f96](https://github.com/Infael/MMG/commit/00d7f960a15b2d7faaefc8e84c7fa2a43c4aedfa))
+
 ## [1.2.0](https://github.com/Infael/MMG/compare/v1.1.1...v1.2.0) (2025-09-12)
 
 
