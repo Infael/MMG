@@ -20,8 +20,13 @@ public class Camera(int viewportWidth, int viewportHeight)
         Matrix.CreateTranslation(new Vector3(ViewportWidth / 2f, ViewportHeight / 2f, 0));
   }
 
-  public void FollowPosition(Vector2 playerPosition, float smoothing = 0.1f)
+  public void FollowPosition(Vector2 followedPosition, float smoothing = 0.1f, bool useSmoothing = true)
   {
-    Position = Vector2.Lerp(Position, playerPosition, smoothing);
+    if (!useSmoothing)
+    {
+      Position = followedPosition;
+      return;
+    }
+    Position = Vector2.Lerp(Position, followedPosition, smoothing);
   }
 }

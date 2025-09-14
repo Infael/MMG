@@ -6,7 +6,7 @@
     <!-- NuGet package info -->
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>MMG</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.3.0</Version>
     <Authors>Michal Štefaňák</Authors>
     <Description>My MonoGame utility library</Description>
     <PackageTags>monogame game graphics</PackageTags>
